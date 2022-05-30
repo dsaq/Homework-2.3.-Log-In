@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		312030582840E2E900A2B013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312030572840E2E900A2B013 /* AppDelegate.swift */; };
 		3120305A2840E2E900A2B013 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312030592840E2E900A2B013 /* SceneDelegate.swift */; };
-		3120305C2840E2E900A2B013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120305B2840E2E900A2B013 /* ViewController.swift */; };
+		3120305C2840E2E900A2B013 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120305B2840E2E900A2B013 /* LoginViewController.swift */; };
 		3120305F2840E2E900A2B013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3120305D2840E2E900A2B013 /* Main.storyboard */; };
 		312030612840E2FC00A2B013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312030602840E2FC00A2B013 /* Assets.xcassets */; };
 		312030642840E2FD00A2B013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312030622840E2FD00A2B013 /* LaunchScreen.storyboard */; };
+		3120306C2840EAD400A2B013 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120306B2840EAD400A2B013 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312030542840E2E900A2B013 /* Homework 2.3. Log In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 2.3. Log In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312030572840E2E900A2B013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		312030592840E2E900A2B013 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3120305B2840E2E900A2B013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3120305B2840E2E900A2B013 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3120305E2840E2E900A2B013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		312030602840E2FC00A2B013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		312030632840E2FD00A2B013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312030652840E2FD00A2B013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3120306B2840EAD400A2B013 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				312030572840E2E900A2B013 /* AppDelegate.swift */,
 				312030592840E2E900A2B013 /* SceneDelegate.swift */,
-				3120305B2840E2E900A2B013 /* ViewController.swift */,
+				3120305B2840E2E900A2B013 /* LoginViewController.swift */,
 				3120305D2840E2E900A2B013 /* Main.storyboard */,
+				3120306B2840EAD400A2B013 /* WelcomeViewController.swift */,
 				312030602840E2FC00A2B013 /* Assets.xcassets */,
 				312030622840E2FD00A2B013 /* LaunchScreen.storyboard */,
 				312030652840E2FD00A2B013 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3120305C2840E2E900A2B013 /* ViewController.swift in Sources */,
+				3120305C2840E2E900A2B013 /* LoginViewController.swift in Sources */,
+				3120306C2840EAD400A2B013 /* WelcomeViewController.swift in Sources */,
 				312030582840E2E900A2B013 /* AppDelegate.swift in Sources */,
 				3120305A2840E2E900A2B013 /* SceneDelegate.swift in Sources */,
 			);
