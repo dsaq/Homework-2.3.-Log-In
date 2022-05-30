@@ -13,9 +13,28 @@ class LoginViewController: UIViewController {
     @IBOutlet var userPasswordTF: UITextField!
     @IBOutlet var logInButton: UIButton!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        userNameTF.delegate = self
+        userNameTF.tag = 0
+        userNameTF.returnKeyType = .next
+       
+        userPasswordTF.delegate = self
+        userPasswordTF.tag = 1
+        userPasswordTF.enablesReturnKeyAutomatically = true
+        userPasswordTF.returnKeyType = .done
+        
+        userPasswordTF.tag = 2
+        
+        
+        
+    }
     
     override func prepare(for seque: UIStoryboardSegue, sender: Any?) {
+        
         guard let logInButton = seque.destination as? WelcomeViewController else {return}
+        
         logInButton.userName = userNameTF.text
 
     }
@@ -27,9 +46,20 @@ class LoginViewController: UIViewController {
         super.touchesBegan(touches, with: event)
     }
     
+    
     @IBAction func unwind(for seque: UIStoryboardSegue) {
         userNameTF.text = ""
         userPasswordTF.text = ""
     }
 }
+
+    extension LoginViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        userPasswordTF.becomeFirstResponder()
+
+        return true
+    }
+}
+
 
